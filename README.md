@@ -14,8 +14,8 @@
 2. Una vez instalado Docker y descargado el `Dockerfile`, hay que construir la imagen:
 ```bash
 sudo docker build -t calculadora:0.1 .
-``` text
->Nota para el yo del futuro:
+```
+# Nota para el yo del futuro:
 
 1. Docker odia las comas.
 2. No hay que olvidar las "" individuales en el CMD del dockerfile.
