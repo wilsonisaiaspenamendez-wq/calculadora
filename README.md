@@ -1,6 +1,6 @@
 # Calculadora Básica
 
-##Lo que tiene y lo que no tiene:
+## Lo que tiene y lo que no tiene:
 1. Es una calculadora sencilla capaz de: sumar, restar, dividir, multiplicar.
 2. No tiene interfaz gráfica.
 3. No tiene historial permanente.
