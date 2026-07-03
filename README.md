@@ -23,6 +23,7 @@ sudo docker run -it calculadora:0.1
 
 1. Docker odia las comas.
 2. No hay que olvidar las "" individuales en el CMD del dockerfile.
+3. Piensa antes de poner codigooo por favooor!.
 
 ---
 
