@@ -31,6 +31,7 @@ sudo docker run -it calculadora:0.1
 2. Se le añadirán más operaciones a la calculadora.
 3. La calculadora tendrá historial de operaciones.
 4. La calculadora tendrá la capacidad de soportar más de 2 elementos.
+5. Sera mas compatible con mas plataformas(windows, linux, mac).
 
 
 
