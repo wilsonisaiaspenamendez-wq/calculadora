@@ -15,7 +15,7 @@
 ```bash
 sudo docker build -t calculadora:0.1 .
 ```
-Despues de eso hay que ejecutar la imagen:
+3. Despues de eso hay que ejecutar la imagen:
 ```bash
 sudo docker run -it calculadora:0.1
 ```
