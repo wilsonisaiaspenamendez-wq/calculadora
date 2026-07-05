@@ -7,11 +7,12 @@
 
 ---
 
-## Pasos para su instalación:
+## Para los que usan docker:
 
-1. La calculadora solo es compatible con Docker por el momento, por lo que hay que instalarlo. Para ir a su enlace oficial: https://www.docker.com/products/docker-desktop/
+1. Esta parte es para los que usan docker, por lo que hay que ir al enlace oficial
+    https://www.docker.com/products/docker-desktop/
 
-2. Una vez instalado Docker y descargado el `Dockerfile`, hay que construir la imagen:
+3. Una vez instalado Docker y descargado el `Dockerfile`, hay que construir la imagen:
 ```bash
 sudo docker build -t calculadora:0.1 .
 ```
@@ -19,6 +20,15 @@ sudo docker build -t calculadora:0.1 .
 ```bash
 sudo docker run -it calculadora:0.1
 ```
+## Para los que usan debian:
+
+1. Ya que descargaste el .deb ahora hay que instalarlo:
+```bash
+sudo chmod +x calculadora.deb
+sudo apt install ./calcuadora.deb
+```
+---
+
 # Nota para el yo del futuro:
 
 1. Docker odia las comas.
