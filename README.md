@@ -24,6 +24,11 @@ sudo docker run -it calculadora:0.1
 1. Docker odia las comas.
 2. No hay que olvidar las "" individuales en el CMD del dockerfile.
 3. Piensa antes de poner codigooo por favooor!
+4. Si te da pereza escribir sudo cada vez que quieras usar docker pues XD a;ade tu usuario al grupo docker:
+5. ```bash
+   sudo usermod -aG docker
+   ```
+Y no hace falta crear el grupo docker porque ya esta creado.
 
 ---
 
