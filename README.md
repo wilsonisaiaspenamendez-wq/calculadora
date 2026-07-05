@@ -32,12 +32,19 @@ Y no hace falta crear el grupo docker porque ya esta creado.
 
 ---
 
-# Próximo a añadir:
+# Objetivo a añadir:
 1. Se le añadirá interfaz gráfica.
 2. Se le añadirán más operaciones a la calculadora.
 3. La calculadora tendrá historial de operaciones.
 4. La calculadora tendrá la capacidad de soportar más de 2 elementos.
 5. Sera mas compatible con mas plataformas(windows, linux, mac).
 
+---
+
+# Version 0.2
+## Cambios a;adidos:
+1. Se a;adio la capacidad de soportar infinitos elementos y no solo 2,  por lo cual el codigo a sido optimizado para este cambio.
+## Cambios proximos a la 0.3:
+1. El objetivo de la sig version es hacer compatible la calculadora para debian(el final boss que me deja chueco) y para windows y correjir bugs que se presenten en la calculadora.
 
 
