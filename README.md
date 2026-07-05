@@ -26,7 +26,7 @@ sudo docker run -it calculadora:0.1
 3. Piensa antes de poner codigooo por favooor!
 4. Si te da pereza escribir sudo cada vez que quieras usar docker pues XD a;ade tu usuario al grupo docker:
 ```bash
-sudo usermod -aG docker
+sudo usermod -aG docker wilson(o el usuario que tengas)
    ```
 Y no hace falta crear el grupo docker porque ya esta creado.
 
