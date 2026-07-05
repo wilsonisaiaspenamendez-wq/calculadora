@@ -5,19 +5,18 @@ import sys
 contrasena()
 while True:
 	decision = input("va a sumar(S), restar(R), multiplicar(M), dividir(D):").upper()
-	n1, n2 = operador()
+	datos = operador()
 	if decision == "S":
-		sumar(n1, n2)
+		sumar(datos)
 	elif decision == "R":
-		restar(n1, n2)
+		restar(datos)
 	elif decision == "M":
-		multiplicar(n1, n2)
+		multiplicar(datos)
 	elif decision == "D":
-		dividir(n1, n2)
+		dividir(datos)
 	else:
 		print("troleadoooooo, letra equivocada")
-	intento = input("de nuevo? S o N").upper()
+	intento = input("de nuevo? S o N:").upper()
 	if intento == "N":
 		print("ok")
 		sys.exit()
-
