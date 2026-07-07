@@ -51,7 +51,7 @@ EOF
 
 sudo apt update
 ```
-*Estos comandos los encontraran en el enlace oficial de docker.
+* Estos comandos los encontraran en el enlace oficial de docker.
 
 ---
 
