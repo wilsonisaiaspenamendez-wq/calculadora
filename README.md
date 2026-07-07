@@ -32,19 +32,20 @@ Y no hace falta crear el grupo docker porque ya esta creado.
 
 ---
 
-# Objetivo a añadir:
+# Objetivo a añadir en las proximas versiones:
 1. Se le añadirá interfaz gráfica.
 2. Se le añadirán más operaciones a la calculadora.
 3. La calculadora tendrá historial de operaciones.
-4. La calculadora tendrá la capacidad de soportar más de 2 elementos.
-5. Sera mas compatible con mas plataformas(windows, linux, mac).
+4. La calculadora tendrá la capacidad de soportar más de 2 digitos.
+5. Sera mas compatible con mas plataformas(windows, linux).
+6. Quitar el bucle for remplazando el codigo por numpy.
 
 ---
 
-# Version 0.2
-## Cambios a;adidos:
-1. Se a;adio la capacidad de soportar infinitos elementos y no solo 2,  por lo cual el codigo a sido optimizado para este cambio.
-## Cambios proximos a la 0.3:
-1. El objetivo de la sig version es hacer compatible la calculadora para debian(el final boss que me deja chueco) y para windows y correjir bugs que se presenten en la calculadora.
+## Objetivos cumplidos en estas versiones:
+1. V 0,1: Codigo subido a github.
+2. V 0.2: Soporte para mas de 2 digitos con el bucle for.
+3. V 0.3: Compatibilidad con Debian linux.
+4. V 0.4: Remplazo del bucle for por numpy para optimizacion y soporte de mas digitos sin errores. 
 
 

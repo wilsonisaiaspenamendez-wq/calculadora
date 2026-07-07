@@ -4,4 +4,4 @@ def operador():
             Datos = list(map(float, input(":").split()))
             return Datos
         except ValueError:
-            print("por favoooooor!, ponga un numerooooo")
+            print("Pon numeros!")
