@@ -1,4 +1,4 @@
-FROM python:3.13.5-slim
+FROM python:alpine
 WORKDIR /APP
 COPY . /APP
 RUN pip install --no-cache-dir numpy
