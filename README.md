@@ -7,9 +7,10 @@
 
 ---
 
-## Pasos para su instalación:
+# Pasos para su instalación:
 
-1. La calculadora solo es compatible con Docker por el momento, por lo que hay que instalarlo. Para ir a su enlace oficial: https://www.docker.com/products/docker-desktop/
+## Para los que usan docker desktop en windows:
+1. Para instalarlo hay que ir al enlace oficial y descargar la version del sistema operativo correspondiente: https://www.docker.com/products/docker-desktop/
 
 2. Una vez instalado Docker y descargado el `Dockerfile`, hay que construir la imagen:
 ```bash
@@ -19,6 +20,42 @@ sudo docker build -t calculadora:0.1 .
 ```bash
 sudo docker run -it calculadora:0.1
 ```
+
+---
+
+## Para los que usan docker desktop en Debian:
+
+1. Si quieren descargar la version desktop pues van a este enlace: https://docs.docker.com/desktop/setup/install/linux/debian/
+2. Descargan el .deb y ejecutan:
+```bash
+sudo apt install ./(el .deb que descargaron)
+```
+* En debian hay otra forma de instalarlo y es a travez del repositorio apt(que no consume recursos.)
+```bash
+# Add Docker's official GPG key:
+sudo apt update
+sudo apt install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Add the repository to Apt sources:
+sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
+Types: deb
+URIs: https://download.docker.com/linux/debian
+Suites: $(. /etc/os-release && echo "$VERSION_CODENAME")
+Components: stable
+Architectures: $(dpkg --print-architecture)
+Signed-By: /etc/apt/keyrings/docker.asc
+EOF
+
+sudo apt update
+```
+*Estos comandos los encontraran en el enlace oficial de docker.
+
+---
+
+
 # Nota para el yo del futuro:
 
 1. Docker odia las comas.
@@ -47,5 +84,3 @@ Y no hace falta crear el grupo docker porque ya esta creado.
 2. V 0.2: Soporte para mas de 2 digitos con el bucle for.
 3. V 0.3: Compatibilidad con Debian linux.
 4. V 0.4: Remplazo del bucle for por numpy para optimizacion y soporte de mas digitos sin errores. 
-
-
