@@ -83,4 +83,5 @@ Y no hace falta crear el grupo docker porque ya esta creado.
 1. V 0,1: Codigo subido a github.
 2. V 0.2: Soporte para mas de 2 digitos con el bucle for.
 3. V 0.3: Compatibilidad con Debian linux.
-4. V 0.4: Remplazo del bucle for por numpy para optimizacion y soporte de mas digitos sin errores. 
+4. V 0.4: Remplazo del bucle for por numpy para optimizacion y soporte de mas digitos sin errores.
+5. V 0.5: Se soluciono el error en el que el contenedor debian busca en los directorios reales del sistema.
