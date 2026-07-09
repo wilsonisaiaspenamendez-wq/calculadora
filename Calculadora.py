@@ -1,9 +1,9 @@
 #! /usr/bin/env python3
+import sys
+sys.path.append("/usr/bin/env python3")
 from ladrillos import operador
 from result import sumar, restar, multiplicar, dividir
 from contrasena import contrasena
-import sys
-sys.path.append("/usr/share/archivos_calculadora")
 contrasena()
 while True:
 	decision = input("va a sumar(S), restar(R), multiplicar(M), dividir(D):").upper()
