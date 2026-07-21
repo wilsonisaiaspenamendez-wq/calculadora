@@ -85,3 +85,4 @@ Y no hace falta crear el grupo docker porque ya esta creado.
 3. V 0.3: Compatibilidad con Debian linux.
 4. V 0.4: Remplazo del bucle for por numpy para optimizacion y soporte de mas digitos sin errores.
 5. V 0.5: Ejecucion de la calculadora en terminal sin estar anclado al directorio del proyecto.
+6. V 0.6: remplazo del endoesqueleto(codigo) a la POO

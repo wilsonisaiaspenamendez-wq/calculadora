@@ -1,20 +1,17 @@
-def sumar(Suma):
-    suma1 = 0
-    for numero in Suma:
-        suma1 += float(numero)
-    print(suma1)      
-def restar(resta):
-    resta1 = float(resta[0])
-    for numero in resta[1:]:
-        resta1 -= float(numero)
-    print(resta1)
-def multiplicar(multiplicacion):
-    multiplicar1 = 1
-    for numero in multiplicacion:
-        multiplicar1 *= float(numero)
-    print(multiplicar1)
-def dividir(D):
-    d = float(D[0])
-    for numero in D[1:]:
-        d /= float(numero)
-    print(d)
+import numpy as np
+class Calculador():
+    def suma(self, elemento):
+        self.result = np.sum(elemento)
+        print(self.result)
+    def multiplicacion(self, elemento1):
+        self.result1 = np.multiply.reduce(elemento1)
+        print(self.result1)
+    def resta(self, elemento2):
+        self.result2 = np.subtract.reduce(elemento2)
+        print(self.result2)
+    def division(self, elemento3):
+        self.di = np.divide.reduce(elemento3)
+        print(self.di)
+    def raiz_cuadrada(self, elemento4):
+        self.result4 = np.sqrt(elemento4)
+        print(self.result4)

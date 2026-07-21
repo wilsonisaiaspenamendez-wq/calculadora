@@ -1,7 +1,9 @@
-def operador():
-    while True:
-        try:
-            Datos = list(map(float, input(":").split()))
-            return Datos
-        except ValueError:
-            print("por favoooooor!, ponga un numerooooo")
+class Datos():
+    def operador(self):
+        while True:
+            try:
+                self.datos = list(map(float, input(":").split()))
+                return self.datos
+            except ValueError:
+                print("Pon numeros!")
+                continue
