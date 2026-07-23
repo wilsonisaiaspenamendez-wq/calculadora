@@ -1,3 +1,4 @@
+# clase encargada de diregir los datos para que la clase Calculadora trabaje con ellos facilmente.
 class Datos():
     def operador(self):
         while True:
