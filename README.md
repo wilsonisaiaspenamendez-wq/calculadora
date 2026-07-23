@@ -51,8 +51,8 @@ sudo usermod -aG docker $USER
 
 # Nota para el yo del futuro:
 
-1. Docker odia las comas.
-2. No hay que olvidar las "" individuales en el CMD del dockerfile.
+1. Docker odia las comas💀💀💀.
+2. No hay que olvidar las "" individuales en el CMD del dockerfile💀💀💀.
 3. Piensa antes de poner codigooo por favooor! 🫤🫤🫤🫤
 4. No uses self para todo 😵‍💫😵‍💫😵‍💫😵‍💫.
 5. No uses git push origin main --force para todoo!!!!! 😵😵😵😵😵
