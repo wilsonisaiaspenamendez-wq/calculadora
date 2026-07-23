@@ -42,20 +42,19 @@ docker run -it calculadora:debian
 ```bash
 docker run -it calculadora:python
 ```
+3. Si como a mi ustedes les da pereza escribir sudo docker 24/7 pues ejecuten esto:
+```bash
+sudo usermod -aG docker $USER
+```
 
 ---
-
 
 # Nota para el yo del futuro:
 
 1. Docker odia las comas.
 2. No hay que olvidar las "" individuales en el CMD del dockerfile.
 3. Piensa antes de poner codigooo por favooor! 🫤🫤🫤🫤
-4. Si te da pereza escribir sudo cada vez que quieras usar docker pues XD a;ade tu usuario al grupo docker:
-```bash
-sudo usermod -aG docker $USER
-   ```
-5. No uses self para todo 😵‍💫😵‍💫😵‍💫😵‍💫.
+4. No uses self para todo 😵‍💫😵‍💫😵‍💫😵‍💫.
 
 ---
 
