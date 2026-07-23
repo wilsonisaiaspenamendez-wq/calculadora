@@ -59,10 +59,10 @@ sudo usermod -aG docker $USER
 ---
 
 # Objetivo a añadir en las proximas versiones:
-2. Se le añadirán más operaciones a la calculadora.
-4. La calculadora tendrá la capacidad de soportar más de 2 digitos.
-5. Sera mas compatible con mas plataformas(windows, linux).
-6. Quitar el bucle for remplazando el codigo por numpy.
+1. Se le añadirán más operaciones a la calculadora.
+2. La calculadora tendrá la capacidad de soportar más de 2 digitos.
+3. Sera mas compatible con mas plataformas(windows, linux).
+4. Quitar el bucle for remplazando el codigo por numpy.
 
 ---
 
