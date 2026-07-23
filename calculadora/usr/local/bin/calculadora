@@ -3,7 +3,7 @@
 # En la primera linea el codigo es el encargado de decirle a linux que no ejecute bash en todo lo que se mueva 😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️.
 # como linux es ciego y no sabe que el codigo es python pues el #! es el encargado de decirle: oye!! este codigo se debe de ejecutar en python😶😶😶.
 import sys
-# como linux es mas ciego que alguien que auien que no tiene ojos pues el codigo de abajo es el encargado de orientar a linux hasta encontrar la ruta de los otros modulos(clases, funciones etc...)😶😶😶
+# como linux es mas ciego que alguien que no tiene ojos pues el codigo de abajo es el encargado de orientar a linux hasta encontrar la ruta de los otros modulos(clases, funciones etc...)😶😶😶
 sys.path.append("/usr/local/bin")
 from principal import Motor
 from ladrillos import Datos
