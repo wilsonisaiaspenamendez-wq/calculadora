@@ -79,7 +79,7 @@ sudo usermod -aG docker $USER
 
 # Aclaracion importante!:
 
-1. Docker es una herramienta externa. Aqui solo se proporcionan configuraciones para que el proyecto se ejecute sin ninguna dificultad en cualquier equipo.
+1. Docker es una herramienta externa y creada por otras personas. Aqui solo se proporcionan configuraciones para que el proyecto se ejecute sin ninguna dificultad en cualquier equipo.
 
 ---
 
