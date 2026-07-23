@@ -20,6 +20,31 @@
 
 ---
 
+## construir imagen docker:
+
+1. para el debian.dockerfile
+```bash
+docker build -f debian.dockerfile -t calculadora:debian .
+```
+2. para el dockerfile:
+```bash
+docker build -f dockerfile -t calculadora:python .
+```
+---
+
+## para ejecutar las imagenes:
+
+1. calculadora:debian:
+```bash
+docker run -it calculadora:debian
+```
+2. calculadora python:
+```bash
+docker run -it calculadora:python
+```
+
+---
+
 
 # Nota para el yo del futuro:
 
