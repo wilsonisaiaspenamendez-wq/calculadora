@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 # En la primera linea el codigo es el encargado de decirle a linux que no ejecute bash en todo lo que se mueva 😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️.
 # como linux es ciego y no sabe que el codigo es python pues el #! es el encargado de decirle: oye!! este codigo se debe de ejecutar en python😶😶😶.
