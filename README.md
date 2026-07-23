@@ -74,8 +74,7 @@ sudo usermod -aG docker $USER
 4. V 0.4: Remplazo del bucle for por numpy para optimizacion y soporte de mas digitos sin errores.
 5. V 0.5: Ejecucion de la calculadora en terminal sin estar anclado al directorio del proyecto.
 6. V 0.6: remplazo del endoesqueleto(codigo) por POO
-7. V 0.7: Se purgo todos los self innecesarios que no son importantes, se dise;o mejor el control de errores por si se selecciona una opcion no correcta y se quito la contrasena para que la calculadora sea mas accesible y facil de acceder.
-
+7. V 0.7: Se purgo selfs inecesarios, mejor gestion de errores(no todos), eliminacion oficial del modulo contrasena
 ---
 
 # ☣️☣️☣️☣️Aclaracion importante!!!☣️☣️☣️☣️:
