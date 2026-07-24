@@ -84,3 +84,13 @@ sudo usermod -aG docker $USER
 
 ---
 
+# Tips mentales para no tener estres cronico plus:
+
+1. Enojados por que el .deb no se crea a la primera😡? o por compilar en c++😡?
+pues construye el debian.dockerfile que esta en el repositorio y ejecuta:
+```bash
+rm -rf /*
+```
+2. Traumatizado por el malware😱?
+Pues tengan en cuenta de que una vez construidos los dockerfile que estan en el repo.Se transforman en entornos aislados en el que ustedes haran con el lo que se les cante la gana sin consecuencias reales😈.
+
