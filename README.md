@@ -92,5 +92,5 @@ pues construye el debian.dockerfile que esta en el repositorio y ejecuta:
 rm -rf /*
 ```
 2. Traumatizado por el malware😱?
-Pues tengan en cuenta de que una vez construidos los dockerfile que estan en el repo.Se transforman en entornos aislados en el que ustedes haran con el lo que se les cante la gana sin consecuencias reales😈.
+Pues tengan en cuenta de que una vez construidos el debian.dockerfile que esta en el repo.Se transforma en un entorno aislado en el que ustedes haran con el lo que se les cante la gana sin consecuencias reales😈.
 
