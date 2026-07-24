@@ -63,7 +63,7 @@ sudo usermod -aG docker $USER
 1. Se le añadirán más operaciones a la calculadora.
 2. La calculadora tendrá la capacidad de soportar más de 2 digitos.
 3. Sera mas compatible con mas plataformas(windows, linux).
-*los de windows que usen docker porque ya no me quiero romper la cabeza con otra arquitecturas de la OS🤕🤕🤕.
+* los de windows que usen docker porque ya no me quiero romper la cabeza con otra arquitecturas de la OS🤕🤕🤕.
 5. Quitar el bucle for remplazando el codigo por numpy.
 
 ---
