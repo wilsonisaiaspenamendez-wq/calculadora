@@ -2,6 +2,7 @@
 # pesos gastados en IA: 0
 # IA utilizada como copia y pega: 0%
 # IA local como asistente para lo aburrido y repetitivo: 60% 
+# qwen 2.5 coder:1.5b es la claveeeee!!!!!!!!!!!!!!!!!🤖🤖🤖
 # usando docker: 100%
 from ladrillos import Datos
 from result import Calculador
