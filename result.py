@@ -16,9 +16,3 @@ class Calculador():
     def raiz_cuadrada(self, elemento4):
         result4 = np.sqrt(elemento4)
         return result4
-    def division(self, numeros):
-        di = np.divide.reduce(numeros)
-        return di
-    def raiz_cuadrada(self, numero):
-        result4 = np.sqrt(numero)
-        return result4
