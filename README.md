@@ -76,6 +76,8 @@ sudo usermod -aG docker $USER
 5. V 0.5: Ejecucion de la calculadora en terminal sin estar anclado al directorio del proyecto.
 6. V 0.6: remplazo del endoesqueleto(codigo) por POO
 7. V 0.7: Se purgo selfs inecesarios, mejor gestion de errores(no todos), eliminacion oficial del modulo contrasena
+8. V 0.7.1: Restructuracion de la maqueta simulada de /
+   
 ---
 
 # ☣️☣️☣️☣️Aclaracion importante!!!☣️☣️☣️☣️:
