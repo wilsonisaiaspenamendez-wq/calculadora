@@ -3,7 +3,7 @@
 # como linux es ciego y no sabe que el codigo es python pues el #! es el encargado de decirle: oye!! este codigo se debe de ejecutar en python😶😶😶.
 import sys
 # como linux es mas ciego que alguien que no tiene ojos pues el codigo de abajo es el encargado de orientar a linux hasta encontrar la ruta de los otros modulos(clases, funciones etc...)😶😶😶
-sys.path.append("/usr/local/share")
+sys.path.append("/usr/local/share/calculadora")
 from principal import Motor
 from ladrillos import Datos
 from result import Calculador
