@@ -27,7 +27,7 @@ sudo apt install ./calculadora*.deb
 ```
 2. si quieren desinstalar la calculadora ejecuten:
 ```bash
-sudo apt autoremove --purge calculadora
+sudo apt purge calculadora
 ```
 
 ---
