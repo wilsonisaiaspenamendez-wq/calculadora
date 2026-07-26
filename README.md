@@ -15,7 +15,7 @@
 
 # Pasos para su instalación:
 
-1. Para los que usan docker desktop vallan al enlace oficial de docker desktop: https://www.docker.com/products/docker-desktop/
+1. Para los que usan docker desktop vayan al enlace oficial de docker desktop: https://www.docker.com/products/docker-desktop/
 2. Para los que usan apt o otro gestor de paquetes vallan al enlace oficial de docker y sigan la guia correspondiente de ellos: https://docs.docker.com/desktop/setup/install/linux/
 
 ---
