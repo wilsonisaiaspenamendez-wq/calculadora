@@ -21,7 +21,7 @@
 ---
 
 # pasos para instalar la calculadora en .deb:
-1. ejecuten:
+1. para instalarla ejecuten:
 ```bash
 sudo apt install ./calculadora0.7.1(o la version que descargaron).deb
 ```
