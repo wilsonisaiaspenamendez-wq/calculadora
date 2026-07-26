@@ -20,6 +20,18 @@
 
 ---
 
+# pasos para instalar la calculadora en .deb:
+1. ejecuten:
+```bash
+sudo apt install ./calculadora0.7.1(o la version que descargaron).deb
+```
+2. si quieren desinstalar la calculadora ejecuten:
+```bash
+sudo apt autoremove --purge calculadora
+```
+
+---
+
 ## construir imagen docker:
 
 1. para el debian.dockerfile
