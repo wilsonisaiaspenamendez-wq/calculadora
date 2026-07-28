@@ -14,26 +14,17 @@ class Motor():
     def decicion(self):
         while True:
             obtener = input("va a: sumar(S), restar(R), multiplicar(M), dividir(D), raiz cuadrada(P)").upper()
-            if obtener == "S":
+            opciones = {
+                "S": self.suma.suma,
+                "R": self.suma.resta,
+                "M": self.suma.multiplicacion,
+                "D": self.suma.division,
+                "P": self.suma.raiz_cuadrada
+            }
+            if obtener in opciones:
                 obtenido = self.dato.operador()
-                resultado = self.suma.suma(obtenido)
+                resultado = opciones[obtener](obtenido)
                 print(resultado)
-            elif obtener == "R":
-                obtenido = self.dato.operador()
-                resultado1 = self.suma.resta(obtenido)
-                print(resultado1)
-            elif obtener == "M":
-                obtenido = self.dato.operador()
-                resultado2 = self.suma.multiplicacion(obtenido)
-                print(resultado2)
-            elif obtener == "D":
-                obtenido = self.dato.operador()
-                resultado3 = self.suma.division(obtenido)
-                print(resultado3)
-            elif obtener == "P":
-                obtenido = self.dato.operador()
-                resultado4 = self.suma.raiz_cuadrada(obtenido)
-                print(resultado4)
             else:
                 print("letra o opcion incorrectaaaaaaa")
                 continue
@@ -46,8 +37,3 @@ class Motor():
                 else:
                     print("opcion no correcta!!!!!")
                     continue
-
-
-
-
-    
