@@ -9,20 +9,20 @@ from result import Calculador
 # clase Motor: es la encargada de ocultar la logica de invocacion hacia las funciones.
 class Motor():
     def __init__(self):
-        self.suma = Calculador()
-        self.dato = Datos()
+        self.calculadores = Calculador()
+        self.datos = Datos()
     def decicion(self):
         while True:
             obtener = input("va a: sumar(S), restar(R), multiplicar(M), dividir(D), raiz cuadrada(P)").upper()
             opciones = {
-                "S": self.suma.suma,
-                "R": self.suma.resta,
-                "M": self.suma.multiplicacion,
-                "D": self.suma.division,
-                "P": self.suma.raiz_cuadrada
+                "S": self.calculadores.suma,
+                "R": self.calculadores.resta,
+                "M": self.calculadores.multiplicacion,
+                "D": self.calculadores.division,
+                "P": self.calculadores.raiz_cuadrada
             }
             if obtener in opciones:
-                obtenido = self.dato.operador()
+                obtenido = self.datos.operador()
                 resultado = opciones[obtener](obtenido)
                 print(resultado)
             else:
